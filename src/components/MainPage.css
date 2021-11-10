@@ -1,0 +1,19 @@
+@media (max-width: 768px) {
+  body {
+    overflow: visible;
+  }
+  .formName {
+    font-size: 4rem;
+  }
+  .form-section {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  .left-section {
+    position: relative;
+  }
+  .right-section {
+    position: relative;
+  }
+}

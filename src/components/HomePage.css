@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com');
+@import url('https://fonts.gstatic.com');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+.homepage-container {
+  height: 100vh;
+  position: relative;
+}
+.circle-2 {
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  height: 100%;
+  width: 62%;
+  background: url('./images/Circles\ Background-2.png') no-repeat center
+    center/cover;
+}
+.boy-2 {
+  height: 50%;
+  width: 30%;
+  position: absolute;
+  right: 5%;
+  bottom: 0;
+  background: url('./images/Saly-16.png') no-repeat center center/cover;
+}
+.left-content-home {
+  position: absolute;
+  /* left: 0;
+  top: 0; */
+  width: 70%;
+}
+.btn-home {
+  position: relative;
+  top: 2rem;
+  font-weight: 500;
+  /* border-radius: 5px; */
+}
+@media (max-width: 768px) {
+  .circle-2 {
+    width: 100%;
+  }
+  .boy-2 {
+    width: 100%;
+    right: 0;
+  }
+  .left-content-home .formName {
+    font-size: 4rem;
+  }
+}

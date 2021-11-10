@@ -1,0 +1,19 @@
+.form-section {
+  display: flex;
+  background: url('./images/Rectangle\ 339.png');
+}
+.left-section {
+  flex: 0.5;
+}
+.right-section {
+  flex: 0.5;
+}
+/* @media screen and (max-width: 768px) {
+  .form-section {
+    position: relative;
+    flex-direction: column;
+  }
+  .right-section {
+    position: absolute;
+  }
+} */

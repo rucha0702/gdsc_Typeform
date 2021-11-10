@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com');
+@import url('https://fonts.gstatic.com');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.main-head {
+  font-weight: 600;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  height: 60%;
+  justify-content: space-evenly;
+  z-index: 1;
+  width: 60%;
+  /* align-items: center; */
+  margin: auto;
+}
+.left-content {
+  position: sticky;
+  top: 0;
+  /* background-color: yellow; */
+  height: 100vh;
+  /* justify-content: space-evenly; */
+  font-size: 1.2rem;
+  /* width: 60%; */
+}
+.circles {
+  position: absolute;
+  bottom: 0;
+  width: 55%;
+  height: 65%;
+  /* background: red; */
+  background: url('./images/Circles\ Background.png') no-repeat center
+    center/cover;
+}
+.boy {
+  position: absolute;
+  right: 1%;
+  bottom: 2%;
+  height: 40%;
+  width: 40%;
+  background: url('./images/Saly-13.png') no-repeat center center/cover;
+}
+.formName {
+  font-size: 5rem;
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  font-weight: 700;
+}
+.uparVala {
+  margin: 0;
+}
+.restart {
+  position: relative;
+  top: 2rem;
+  font-weight: 500;
+  padding: 0.6rem 2rem;
+  border: none;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .circles {
+    width: 100%;
+  }
+  .boy {
+    bottom: 0;
+  }
+}
