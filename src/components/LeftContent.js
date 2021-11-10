@@ -15,7 +15,7 @@ function LeftContent() {
               <div className="heading"><p className="uparVala">Welcome to</p><p className="formName">Typeform</p></div>
               <div>
                   <div>" Setting you up right now...</div>
-              <button onClick={refreshPage} className="btn restart">Start Again</button>
+              <button onClick={refreshPage} className="btn restart">Restart</button>
               {/* <a href="main#Name" onClick={refreshPage} className="btn restart">Restart</a> */}
               {/* <Link className="btn restart" to='/main'>Restart</Link> */}
               </div>
