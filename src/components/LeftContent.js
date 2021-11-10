@@ -1,6 +1,6 @@
 import React from 'react';
 import './LeftContent.css';
-// import {Link} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 function refreshPage() {
     // window.location.reload(false);
@@ -16,7 +16,7 @@ function LeftContent() {
               <div className="heading"><p className="uparVala">Welcome to</p><p className="formName">Typeform</p></div>
               <div>
                   <div>" Setting you up right now...</div>
-              <a href="/"><button onClick={refreshPage} className="btn restart">Restart</button></a>
+              <Link to='/'><button onClick={refreshPage} className="btn restart">Restart</button></Link>
               {/* <a href="main#Name" onClick={refreshPage} className="btn restart">Restart</a> */}
               {/* <Link className="btn restart" to='/main'>Restart</Link> */}
               </div>
