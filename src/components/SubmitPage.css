@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com');
+@import url('https://fonts.gstatic.com');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body {
+  font-family: 'Lato', sans-serif;
+}
+.circle-3 {
+  background: url('./images/Circles\ Background-3.png') no-repeat center
+    center/cover;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 57%;
+  /* height: 100%; */
+  /* height: 25rem;
+  width: 40rem; */
+  width: 47%;
+}
+.submit-content {
+  position: relative;
+  display: flex;
+  height: 100%;
+  /* align-items: center; */
+  flex-direction: column;
+  left: 5%;
+  width: 50%;
+  text-align: left;
+  margin-top: 20%;
+}
+.submit-content div {
+  margin-bottom: 0.5rem;
+}
+.btn-last {
+  margin-top: 2rem;
+  width: fit-content;
+}
+.submit-text {
+  /* position: absolute; */
+  font-size: 1.3rem;
+  margin-bottom: 2.5rem;
+}
+.submit-text span {
+  font-weight: 800;
+}
+.status-bar {
+  width: 35%;
+  height: 8px;
+  border-radius: 5px;
+  background: black;
+}
