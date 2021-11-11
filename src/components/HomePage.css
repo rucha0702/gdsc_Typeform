@@ -49,4 +49,7 @@ body {
   .left-content-home .formName {
     font-size: 4rem;
   }
+  .left-content-home {
+    width: 60%;
+  }
 }
